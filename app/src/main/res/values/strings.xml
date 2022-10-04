@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Codelabs Kotlin</string>
+    <string name="ol_mundo">Olá, Mundo!</string>
 </resources>
