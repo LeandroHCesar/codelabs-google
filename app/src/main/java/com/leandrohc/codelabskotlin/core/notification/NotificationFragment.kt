@@ -1,4 +1,4 @@
-package com.leandrohc.codelabskotlin.core
+package com.leandrohc.codelabskotlin.core.notification
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -15,7 +15,6 @@ import androidx.core.app.NotificationCompat
 import androidx.fragment.app.Fragment
 import com.leandrohc.codelabskotlin.R
 import com.leandrohc.codelabskotlin.databinding.FragmentNotificationBinding
-import com.leandrohc.codelabskotlin.util.DynamicReceiver
 
 private const val NOTIFICATION_ID = 0
 private const val PRIMARY_CHANNEL_ID = "primary_notification_channel"
@@ -108,7 +107,7 @@ class NotificationFragment : Fragment(R.layout.fragment_notification) {
         val builder = getNotificationBuilder()
 
         createNotificationAction(builder, NOTIFICATION_ID, ACTION_UPDATE, "Atualize")
-        createNotificationAction(builder, NOTIFICATION_ID, ACTION_CANCEL, "Remover")
+        createNotificationAction(builder, NOTIFICATION_ID, ACTION_CANCEL, "Deletar")
 
         val deleteAllAction = Intent(ACTION_DELETE_ALL) // remove com slide left/right ou lixeira
         val deletedAction = PendingIntent.getBroadcast(
@@ -175,8 +174,8 @@ class NotificationFragment : Fragment(R.layout.fragment_notification) {
 
     // for broadcast receiver
     override fun onDestroy() {
-        requireActivity().unregisterReceiver(notificationReceiver)
         super.onDestroy()
+        requireActivity().unregisterReceiver(notificationReceiver)
     }
 
     inner class NotificationReceiver : BroadcastReceiver() {
@@ -213,9 +212,8 @@ class NotificationFragment : Fragment(R.layout.fragment_notification) {
     }
 
     override fun onStop() {
-        unregisterDynamicReceiver()
-        requireActivity().unregisterReceiver(notificationReceiver)
-        super.onStop()
+       unregisterDynamicReceiver()
+       super.onStop()
 
     }
 }

@@ -1,4 +1,4 @@
-package com.leandrohc.codelabskotlin.core
+package com.leandrohc.codelabskotlin.core.toast
 
 import android.content.pm.ActivityInfo
 import android.os.Bundle

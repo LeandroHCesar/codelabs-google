@@ -1,4 +1,4 @@
-package com.leandrohc.codelabskotlin.util
+package com.leandrohc.codelabskotlin.core.notification
 
 import android.content.BroadcastReceiver
 import android.content.Context

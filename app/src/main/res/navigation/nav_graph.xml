@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
-        android:name="com.leandrohc.codelabskotlin.core.ToastSnakeFragment"
+        android:name="com.leandrohc.codelabskotlin.core.toast.ToastSnakeFragment"
         android:label="fragment_toast_snake"
         tools:layout="@layout/fragment_toast_snake" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/notificationFragment"
-        android:name="com.leandrohc.codelabskotlin.core.NotificationFragment"
+        android:name="com.leandrohc.codelabskotlin.core.notification.NotificationFragment"
         android:label="fragment_notification"
         tools:layout="@layout/fragment_notification" >
         <action

@@ -27,7 +27,7 @@
                 android:value="" />
         </activity>
 
-        <receiver android:name=".util.DynamicReceiver"
+        <receiver android:name=".core.notification.DynamicReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>

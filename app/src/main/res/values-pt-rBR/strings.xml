@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Codelabs Kotlin</string>
+    <string name="ol_mundo">Olá, Mundo!</string>
+    <string name="notify_me">Avise me!</string>
+    <string name="update_me">Atualize Me!</string>
+    <string name="cancel_me">Cancele Me!</string>
+</resources>
