@@ -16,5 +16,6 @@ class MainFragment : Fragment(R.layout.fragment_main){
         binding = FragmentMainBinding.bind(view)
         binding.codelabToastSnake.setOnClickListener { navTo(R.id.toastSnakeFragment) }
         binding.codelabNotification.setOnClickListener { navTo(R.id.notificationFragment) }
+        binding.codelabWorkManager.setOnClickListener { navTo(R.id.selectImageFragment) }
     }
 }

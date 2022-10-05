@@ -2,8 +2,8 @@
     <string name="app_name">Code labs Kotlin</string>
     <string name="ol_mundo">Hello, Word!</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
-    <string name="ok" translatable="false">ok</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok">Ok</string>
     <string name="notify_me">Notify me</string>
     <string name="update_me">Update Me!</string>
     <string name="cancel_me">Cancel Me!</string>
@@ -18,7 +18,6 @@
     <string name="codelab_user_interface">Codelab: User Interface</string>
     <string name="custom_view">Custom view</string>
     <string name="accessibility_hooks_amp_tests"><![CDATA[Accessibility hooks & Tests]]></string>
-    <string name="recyclerview_with_paging_library">Recyclerview with Paging Library</string>
     <string name="custom_theme">Custom theme</string>
     <string name="activities_and_intents">Activities and intents</string>
     <string name="your_first_interactive_ui">Your first interactive UI</string>
@@ -50,5 +49,10 @@
     <string name="toast">tost</string>
     <string name="favorite_heart">favorite</string>
     <string name="exclamation">exclamation</string>
+    <string name="select_image">Select image</string>
+
+    <string name="set_permissions_in_settings">Go to Settings -> Apps and Notifications ->
+        WorkManager Demo -> App Permissions and grant access to Storage.</string>
+    <string name="recyclerview_with_paging_library">recyclerview_with_paging_library</string>
 
 </resources>
