@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:gravity="center_horizontal"
-            android:text="Google Developer Certification"
+            android:text="@string/google_developer_certification"
             android:textSize="28sp"
             android:textStyle="bold" />
 
@@ -29,7 +29,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="5dp"
-            android:text="Codelab: Core"
+            android:text="@string/codelab_core"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
@@ -40,7 +40,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Toast &amp; Snake"
+            android:text="@string/toast_amp_snake"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -52,7 +52,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Notification"
+            android:text="@string/notification"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -64,7 +64,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Work Manager"
+            android:text="@string/work_manager"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -76,7 +76,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary_variant"
             android:gravity="left|center_vertical"
-            android:text="Service (not mentioned)"
+            android:text="@string/service_not_mentioned"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -88,7 +88,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Broadcast Receiver (not mentioned)"
+            android:text="@string/broadcast_receiver_not_mentioned"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -100,7 +100,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary_variant"
             android:gravity="left|center_vertical"
-            android:text="Content Provider (not mentioned)"
+            android:text="@string/content_provider_not_mentioned"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -112,7 +112,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
             android:layout_marginBottom="5dp"
-            android:text="Codelab: User Interface"
+            android:text="@string/codelab_user_interface"
             android:textStyle="bold" />
 
         <Button
@@ -123,7 +123,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Custom view"
+            android:text="@string/custom_view"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -135,7 +135,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Accessibility hooks &amp; Tests"
+            android:text="@string/accessibility_hooks_amp_tests"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -147,7 +147,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Recyclerview with Paging Library"
+            android:text="@string/recyclerview_with_paging_library"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -160,7 +160,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary_variant"
             android:gravity="left|center_vertical"
-            android:text="Custom theme"
+            android:text="@string/custom_theme"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -172,7 +172,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Activities and intents"
+            android:text="@string/activities_and_intents"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -184,7 +184,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Your first interactive UI"
+            android:text="@string/your_first_interactive_ui"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -196,19 +196,19 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Themes and touches"
+            android:text="@string/themes_and_touches"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
         <Button
-            android:id="@+id/codelab_themes_touches_baterry"
+            android:id="@+id/codelab_themes_touches_batery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Themes and touches (Level List)"
+            android:text="@string/themes_and_touches_level_list"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -220,7 +220,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="RecyclerView"
+            android:text="@string/recyclerview"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -232,7 +232,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Menus and pickers"
+            android:text="@string/menus_and_pickers"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -244,7 +244,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="User navigation"
+            android:text="@string/user_navigation"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -256,7 +256,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="User navigation with tabs"
+            android:text="@string/user_navigation_with_tabs"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -268,7 +268,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="User navigation with Drawer"
+            android:text="@string/user_navigation_with_drawer"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -280,7 +280,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Material Components (Kotlin)"
+            android:text="@string/material_components_kotlin"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -337,7 +337,7 @@
             android:layout_marginTop="32dp"
             android:layout_marginBottom="5dp"
             android:gravity="left|center_vertical"
-            android:text="Codelab: Data Management"
+            android:text="@string/codelab_data_management"
             android:textAllCaps="false"
             android:textStyle="bold"
             tools:ignore="RtlHardcoded" />
@@ -350,7 +350,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Room with a View"
+            android:text="@string/room_with_a_view"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -362,7 +362,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary_variant"
             android:gravity="left|center_vertical"
-            android:text="Room, LiveData and ViewModel (Duplicated)"
+            android:text="@string/room_livedata_and_viewmodel_duplicated"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -374,7 +374,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary_variant"
             android:gravity="left|center_vertical"
-            android:text="Repository (Duplicated)"
+            android:text="@string/repository_duplicated"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -386,7 +386,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Shared preferences"
+            android:text="@string/shared_preferences"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -398,7 +398,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="ViewModel and ViewModelFactory"
+            android:text="@string/viewmodel_and_viewmodelfactory"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -410,7 +410,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="App settings"
+            android:text="@string/app_settings"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -422,7 +422,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary_variant"
             android:gravity="left|center_vertical"
-            android:text="Drawable, Styles, and Themes"
+            android:text="@string/drawable_styles_and_themes"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -434,7 +434,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
             android:layout_marginBottom="5dp"
-            android:text="Codelab: Debbuging"
+            android:text="@string/codelab_debbuging"
             android:textStyle="bold" />
 
         <Button
@@ -445,7 +445,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Android Studio debugger"
+            android:text="@string/android_studio_debugger"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -457,7 +457,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary_variant"
             android:gravity="left|center_vertical"
-            android:text="Add log statements to your app"
+            android:text="@string/add_log_statements_to_your_app"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -469,7 +469,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
             android:layout_marginBottom="5dp"
-            android:text="Codelab: Testing"
+            android:text="@string/codelab_testing"
             android:textStyle="bold" />
 
         <Button
@@ -480,7 +480,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary_variant"
             android:gravity="left|center_vertical"
-            android:text="Unit tests"
+            android:text="@string/unit_tests"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -492,7 +492,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary_variant"
             android:gravity="left|center_vertical"
-            android:text="Unit testing with JUnit and Mockito"
+            android:text="@string/unit_testing_with_junit_and_mockito"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -504,7 +504,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary_variant"
             android:gravity="left|center_vertical"
-            android:text="Espresso for UI testing"
+            android:text="@string/espresso_for_ui_testing"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
 
@@ -516,7 +516,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="5dp"
-            android:text="Codelab Bonus: Animations"
+            android:text="@string/codelab_bonus_animations"
             android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
@@ -527,7 +527,7 @@
             android:layout_marginEnd="16dp"
             android:backgroundTint="@color/design_default_color_secondary"
             android:gravity="left|center_vertical"
-            android:text="Pulse Explode"
+            android:text="@string/pulse_explode"
             android:textAllCaps="false"
             tools:ignore="RtlHardcoded" />
     </LinearLayout>
