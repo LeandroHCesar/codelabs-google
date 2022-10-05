@@ -54,5 +54,14 @@
     <string name="set_permissions_in_settings">Go to Settings -> Apps and Notifications ->
         WorkManager Demo -> App Permissions and grant access to Storage.</string>
     <string name="recyclerview_with_paging_library">recyclerview_with_paging_library</string>
+    <string name="description_image">Photos</string>
+    <string name="blur_title">Select Bluer Amount</string>
+    <string name="blur_lv_1">A little blurred</string>
+    <string name="blur_lv_2">More blurred</string>
+    <string name="blur_lv_3">The most blurred</string>
+    <string name="cancel_work">Cancel work</string>
+    <string name="see_file">See File</string>
+    <string name="blurring_image">Blurring image</string>
+    <string name="cleaning_up_old_temporary_files">Cleaning up old temporary files</string>
 
 </resources>

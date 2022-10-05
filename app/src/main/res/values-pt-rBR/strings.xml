@@ -53,4 +53,13 @@
     <string name="ok">Ok</string>
     <string name="exclamation">exclamação</string>
     <string name="hello_blank_fragment">Olá fragmento em branco</string>
+    <string name="description_image">Fotos</string>
+    <string name="blur_title">Selecione o valor mais azul</string>
+    <string name="blur_lv_1">Um pouco turva</string>
+    <string name="blur_lv_2">Mais desfocado</string>
+    <string name="blur_lv_3">O mais borrado</string>
+    <string name="cancel_work">Cancelar trabalho</string>
+    <string name="see_file">Ver arquivo</string>
+    <string name="blurring_image">Desfocando a imagem</string>
+    <string name="cleaning_up_old_temporary_files">Limpando arquivos temporários antigos</string>
 </resources>
