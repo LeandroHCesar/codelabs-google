@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Code labs Kotlin</string>
-    <string name="ol_mundo">Hello, Word!</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_world">Hello, Word!</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <string name="notify_me">Notify me</string>
     <string name="update_me">Update Me!</string>
     <string name="cancel_me">Cancel Me!</string>
@@ -46,7 +46,7 @@
     <string name="espresso_for_ui_testing">Espresso for UI testing</string>
     <string name="codelab_bonus_animations">Codelab Bonus: Animations</string>
     <string name="pulse_explode">Pulse Explode</string>
-    <string name="toast">tost</string>
+    <string name="toast">toast</string>
     <string name="favorite_heart">favorite</string>
     <string name="exclamation">exclamation</string>
     <string name="select_image">Select image</string>
@@ -68,7 +68,18 @@
     <string name="shr_hint_username">username</string>
     <string name="shr_hint_password">password</string>
     <string name="shr_button_next">next</string>
-    <string name="shr_button_cancel">cancel</string>
+    <string name="shr_button_cancel">Cancel</string>
     <string name="shr_error_password">Wrong Password</string>
+
+    <string name="interactive_ui_button_toast" translatable="false">Toast</string>
+    <string name="interactive_ui_button_count">Count</string>
+    <string name="interactive_ui_count_initial_value" translatable="false">0</string>
+    <string name="message_received">Message Received</string>
+    <string name="message_send">Message Send</string>
+    <string name="text_header_reply_fragment">Message Received</string>
+    <string name="reply_button">Reply Button</string>
+    <string name="input_send_text">Input Send Text</string>
+    <string name="send_button">Send Button</string>
+    <string name="text_header_send_fragment">Message Send</string>
 
 </resources>

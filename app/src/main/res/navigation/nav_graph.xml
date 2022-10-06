@@ -22,6 +22,12 @@
         <action
             android:id="@+id/action_mainFragment_to_materialComponentsFragment"
             app:destination="@id/materialComponentsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_interativeUiFragment"
+            app:destination="@id/interativeUiFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_sendFragment"
+            app:destination="@id/sendFragment" />
     </fragment>
     <fragment
         android:id="@+id/toastSnakeFragment"
@@ -82,6 +88,36 @@
         <action
             android:id="@+id/action_productGridFragment_to_materialComponentsFragment"
             app:destination="@id/materialComponentsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/interativeUiFragment"
+        android:name="com.leandrohc.codelabskotlin.user_interface.interactive_ui.InteractiveUiFragment"
+        android:label="fragment_interative_ui"
+        tools:layout="@layout/fragment_interative_ui" >
+        <action
+            android:id="@+id/action_interativeUiFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sendFragment"
+        android:name="com.leandrohc.codelabskotlin.user_interface.activit_intents.SendFragment"
+        android:label="fragment_send"
+        tools:layout="@layout/fragment_send" >
+        <action
+            android:id="@+id/action_sendFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_sendFragment_to_replyFragment"
+            app:destination="@id/replyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/replyFragment"
+        android:name="com.leandrohc.codelabskotlin.user_interface.activit_intents.ReplyFragment"
+        android:label="fragment_reply"
+        tools:layout="@layout/fragment_reply" >
+        <action
+            android:id="@+id/action_replyFragment_to_sendFragment"
+            app:destination="@id/sendFragment" />
     </fragment>
 
 </navigation>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Code labs Kotlin</string>
-    <string name="ol_mundo">Olá, Mundo!</string>
+    <string name="hello_world">Olá, Mundo!</string>
     <string name="notify_me">Avise me!</string>
     <string name="update_me">Atualize Me!</string>
     <string name="cancel_me">Cancele Me!</string>
@@ -49,7 +49,8 @@
     <string name="favorite_heart">favorito</string>
 
     <string name="select_image">Selecione a imagem</string>
-    <string name="set_permissions_in_settings">Vá para Configurações -> Aplicativos e notificações -> Demonstração do WorkManager -> Permissões do aplicativo e conceda acesso ao armazenamento.</string>
+    <string name="set_permissions_in_settings">Vá para Configurações -> Aplicativos e notificações ->
+        Demonstração do WorkManager -> Permissões do aplicativo e conceda acesso ao armazenamento.</string>
     <string name="ok">Ok</string>
     <string name="exclamation">exclamação</string>
     <string name="hello_blank_fragment">Olá fragmento em branco</string>
@@ -68,4 +69,5 @@
     <string name="shr_button_next">próximo</string>
     <string name="shr_button_cancel">cancelar</string>
     <string name="shr_error_password">Senha incorreta</string>
+    <string name="interactive_ui_button_count">Contador</string>
 </resources>

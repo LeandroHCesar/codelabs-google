@@ -13,8 +13,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="292" />
-                            <option name="y" value="492" />
+                            <option name="x" value="572" />
+                            <option name="y" value="852" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -29,17 +29,43 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="mainFragment">
+                  <entry key="interativeUiFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
                             <option name="x" value="292" />
-                            <option name="y" value="72" />
+                            <option name="y" value="1272" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_interativeUiFragment_to_mainFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="mainFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="12" />
+                            <option name="y" value="917" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_mainFragment_to_interativeUiFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_mainFragment_to_materialComponentsFragment">
                               <value>
                                 <LayoutPositions />
@@ -51,6 +77,11 @@
                               </value>
                             </entry>
                             <entry key="action_mainFragment_to_selectImageFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_mainFragment_to_sendFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -70,13 +101,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="572" />
-                            <option name="y" value="852" />
+                            <option name="x" value="292" />
+                            <option name="y" value="2112" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_materialComponentsFragment_to_mainFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_materialComponentsFragment_to_productGridFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -91,7 +127,7 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="572" />
+                            <option name="x" value="292" />
                             <option name="y" value="432" />
                           </Point>
                         </option>
@@ -112,8 +148,29 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-377" />
-                            <option name="y" value="7" />
+                            <option name="x" value="12" />
+                            <option name="y" value="2154" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_productGridFragment_to_materialComponentsFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="replyFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="572" />
+                            <option name="y" value="1692" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -124,8 +181,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="115" />
+                            <option name="x" value="292" />
+                            <option name="y" value="852" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -145,12 +202,38 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="sendFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="292" />
+                            <option name="y" value="1692" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_sendFragment_to_mainFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_sendFragment_to_replyFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="toastSnakeFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="572" />
+                            <option name="x" value="292" />
                             <option name="y" value="12" />
                           </Point>
                         </option>
