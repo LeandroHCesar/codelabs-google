@@ -64,4 +64,11 @@
     <string name="blurring_image">Blurring image</string>
     <string name="cleaning_up_old_temporary_files">Cleaning up old temporary files</string>
 
+    <string name="products">Products</string>
+    <string name="shr_hint_username">username</string>
+    <string name="shr_hint_password">password</string>
+    <string name="shr_button_next">next</string>
+    <string name="shr_button_cancel">cancel</string>
+    <string name="shr_error_password">Wrong Password</string>
+
 </resources>

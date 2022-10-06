@@ -62,4 +62,10 @@
     <string name="see_file">Ver arquivo</string>
     <string name="blurring_image">Desfocando a imagem</string>
     <string name="cleaning_up_old_temporary_files">Limpando arquivos temporários antigos</string>
+    <string name="products">Produtos</string>
+    <string name="shr_hint_username">Nome de usuário</string>
+    <string name="shr_hint_password">Senha</string>
+    <string name="shr_button_next">próximo</string>
+    <string name="shr_button_cancel">cancelar</string>
+    <string name="shr_error_password">Senha incorreta</string>
 </resources>
