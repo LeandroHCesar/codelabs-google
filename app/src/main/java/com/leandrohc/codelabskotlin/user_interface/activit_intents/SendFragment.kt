@@ -42,7 +42,6 @@ class SendFragment : Fragment(R.layout.fragment_send) {
     override fun onResume() {
         super.onResume()
         (activity as AppCompatActivity).supportActionBar?.hide()
-
     }
 
     override fun onStop() {
